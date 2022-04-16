@@ -10,11 +10,11 @@
 .popup-container {
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, .125);
-    width: 200px;
+    width: 245px;
     margin: 10px;
     border-radius: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     padding: 10px;
 }
@@ -22,15 +22,30 @@
 .popup-container .difficulty-container {
     display: none;
     height: 100%;
-    width: 200px;
     flex-direction: column;
     align-items: flex-end;
 }
 
 .popup-container .difficulty-container .difficulty-text {
     border-radius: 0.25rem;
-    padding: 2px 10px;
+    padding: 5px 8px;
     color: white;
+    margin-bottom: 0;
+    margin-left: 0.5rem;
+}
+
+.popup-container .difficulty-container .difficulty-box {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.popup-container .difficulty-container .remove-button {
+    display: none;
+    padding: 5px 8px;
+    font-size: 14px;
 }
 
 .popup-container .difficulty-container .difficulty-info {

@@ -23,7 +23,7 @@ function hideSpinner(){
 }
 
 function showDifficulty(item, tabId) {
-    const {difficulty: difficultyLabel, keytype: difficulty, info} = item
+    const {difficulty: difficultyLabel, keytype: difficulty, info, deleteurl} = item
 
     changeIcon(difficulty, tabId)
 
@@ -31,6 +31,11 @@ function showDifficulty(item, tabId) {
     document.querySelector('.difficulty-text').style.backgroundColor = DIFFICULTY_COLORS[difficulty]
     document.querySelector('.difficulty-info')
         .insertAdjacentHTML('afterbegin', info);
+
+    if(deleteurl !== '#') {
+        document.querySelector('.remove-button').style.display = 'block'
+        document.querySelector('.remove-button').href = deleteurl
+    }
 
     hideSpinner()
 
