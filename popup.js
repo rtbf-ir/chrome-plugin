@@ -1,4 +1,4 @@
-const DATA_URL = 'https://raw.githubusercontent.com/amirshnll/rtbf.ir/main/data/data.json';
+const DATA_URL = 'https://rtbf.ir/data/data.json';
 
 const DIFFICULTY_COLORS = {
     "impossible-label": "#000000",
