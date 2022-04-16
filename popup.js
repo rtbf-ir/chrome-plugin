@@ -65,6 +65,8 @@ chrome?.tabs?.query({
             }
 
             showNotSupported();
+        }).catch(error => {
+            console.error('There has been a problem with fetch websites data:', error);
         });
 });
 
