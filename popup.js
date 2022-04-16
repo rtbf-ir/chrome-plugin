@@ -53,7 +53,7 @@ chrome?.tabs?.query({
         .then((response) => response.json())
         .then((websites) => {
             for (let item of websites) {
-                if (item.website.includes(currentUrl)) {
+                if (currentUrl.includes(item.website)) {
                     showDifficulty(item, tabId);
                     return;
                 }
