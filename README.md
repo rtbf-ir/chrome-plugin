@@ -1,7 +1,7 @@
 # Chrome Plugin for rtbf.ir
 
 <p align="center">
-   <img src="https://raw.githubusercontent.com/amirshnll/rtbf.ir/main/logo-readme.png" alt="right to be forgotten (RTBF) Logo">
+   <img src="https://raw.githubusercontent.com/rtbf-ir/rtbf.ir/main/logo-readme.png" alt="right to be forgotten (RTBF) Logo">
 </p>
 
 <p align="center">
