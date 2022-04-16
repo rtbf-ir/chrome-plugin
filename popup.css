@@ -3,8 +3,8 @@
     font-family: dana;
     font-style: normal;
     font-weight: 400;
-    src: url(assets/font/dana-fanum-regular.eot);
-    src: url(assets/font/dana-fanum-regular.eot?#iefix) format("embedded-opentype"), url(assets/font/dana-fanum-regular.woff2) format("woff2"), url(assets/font/dana-fanum-regular.woff) format("woff")
+    src: url(assets/fonts/dana-fanum-regular.eot);
+    src: url(assets/fonts/dana-fanum-regular.eot?#iefix) format("embedded-opentype"), url(assets/fonts/dana-fanum-regular.woff2) format("woff2"), url(assets/fonts/dana-fanum-regular.woff) format("woff")
 }
 
 .popup-container {
