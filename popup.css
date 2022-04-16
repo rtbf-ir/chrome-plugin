@@ -79,9 +79,13 @@
 }
 
 .popup-container .spinner-container {
-    margin: 2rem;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .popup-container .spinner-container .fa-circle-notch {
-    font-size: 24px;
+    font-size: 25px;
 }
