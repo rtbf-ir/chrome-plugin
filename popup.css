@@ -16,22 +16,22 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 10px;
+    padding: 10px
 }
 
 .popup-container .difficulty-container {
     display: none;
     height: 100%;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-end
 }
 
 .popup-container .difficulty-container .difficulty-text {
-    border-radius: 0.25rem;
+    border-radius: .25rem;
     padding: 5px 8px;
-    color: white;
+    color: #fff;
     margin-bottom: 0;
-    margin-left: 0.5rem;
+    margin-left: .5rem
 }
 
 .popup-container .difficulty-container .difficulty-box {
@@ -39,20 +39,20 @@
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem
 }
 
 .popup-container .difficulty-container .remove-button {
     display: none;
     padding: 5px 8px;
-    font-size: 14px;
+    font-size: 14px
 }
 
 .popup-container .difficulty-container .difficulty-info {
     font-size: x-small;
     direction: rtl;
     text-align: right;
-    margin-bottom: 32px;
+    margin-bottom: 32px
 }
 
 .popup-container .difficulty-container .correction-link {
@@ -60,22 +60,22 @@
     position: absolute;
     bottom: 16px;
     left: 20px;
-    text-decoration: none;
+    text-decoration: none
 }
 
 .popup-container .not-supported-container {
     display: none;
     text-align: right;
-    font-size: small;
+    font-size: small
 }
 
 .popup-container .not-supported-container .not-supported-text {
-    direction: rtl;
+    direction: rtl
 }
 
 .popup-container .not-supported-container .not-supported-link {
     font-size: 12px;
-    text-decoration: none;
+    text-decoration: none
 }
 
 .popup-container .spinner-container {
@@ -83,9 +83,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100%
 }
 
 .popup-container .spinner-container .fa-circle-notch {
-    font-size: 25px;
+    font-size: 25px
+}
+
+.plugin-title {
+    font-size: 15px;
+    padding: 15px 15px 0;
+    direction: rtl
 }

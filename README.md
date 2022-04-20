@@ -25,6 +25,7 @@ or a service][add new website] or [request for changing the current difficulty][
 [rtbf.ir]: https://rtbf.ir
 
 ## Development
+
 The code scaffolding is:
 `popup.js` for the script, `popup.html` and `popup.css` 
 for the look and feel. All the plugin manifest is configured in
@@ -36,7 +37,12 @@ To run it locally you just need to:
 3. Navigate to the local folder containing the extension’s code and click Ok
 4. Assuming there are no errors, the extension should load into your browser
 
+## Browser Permission
+
+- Read your browsing history
+
 ## Installing the extension
+
 To install the extension you just need to go to the [Chrome Web Store][Chrome Web Store]
 and search for the [rtbf.ir][rtbf.ir]
 
@@ -69,4 +75,3 @@ maybe you'd like to open a pull request to address one of them ;)
 
 All assets and code are under the [Apache license](LICENSE) and in the public
 domain unless specified otherwise.
-
