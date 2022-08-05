@@ -78,3 +78,5 @@ domain unless specified otherwise.
 
 ## how to install - tutorial (click on image)
 [![](chrome.png)](https://youtu.be/1LGWG1CnaX4)
+
+**video link:** https://youtu.be/1LGWG1CnaX4
