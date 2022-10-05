@@ -1,7 +1,7 @@
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create(
     {
-      title: "وبسایت حق فراموشن شدن",
+      title: "وبسایت حق فراموش شدن",
       id: "rtbfWebsite",
     },
     () => chrome.runtime.lastError
