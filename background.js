@@ -1,6 +1,11 @@
-chrome.contextMenus.create({
-  title: "وبسایت حق فراموشن شدن",
-  id: "rtbfWebsite",
+chrome.runtime.onInstalled.addListener(() => {
+  chrome.contextMenus.create(
+    {
+      title: "وبسایت حق فراموشن شدن",
+      id: "rtbfWebsite",
+    },
+    () => chrome.runtime.lastError
+  );
 });
 
 chrome.contextMenus.onClicked.addListener(function (info, tab) {
