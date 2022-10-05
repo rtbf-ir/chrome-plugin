@@ -5,7 +5,8 @@
   "description": "بسیاری از سرویس های اینترنتی اینگونه عمل می کنند که امکان حذف حساب کاربری را به شما نمی دهند و از نظر ما کاربران این موضوع نقض حریم شخصی است. با توجه به حق فراموش شدن این یک تضاد می باشد.",
   "permissions": [
     "activeTab",
-    "tabs"
+    "tabs",
+    "contextMenus"
   ],
   "host_permissions": [
     "<all_urls>"
@@ -18,6 +19,9 @@
       "32": "/assets/images/logo.png",
       "48": "/assets/images/logo.png"
     }
+  },
+  "background": {
+    "service_worker": "background.js"
   },
   "content_scripts": [
     {
