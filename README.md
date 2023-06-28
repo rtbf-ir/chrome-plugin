@@ -41,11 +41,6 @@ To run it locally you just need to:
 
 - Read your browsing history
 
-## Installing the extension
-
-To install the extension you just need to go to the [Chrome Web Store][Chrome Web Store]
-and search for the [rtbf.ir][rtbf.ir]
-
 [Chrome Web Store]: https://chrome.google.com/webstore/category/extensions?authuser=1&gclid=Cj0KCQjwjN-SBhCkARIsACsrBz5ZueYGF_51GvXFmE-kUZ53-IClozoL0IkSlxfMdrkndfNuv_5EgdAaAo_XEALw_wcB
 
 ## Contributing
@@ -57,7 +52,7 @@ maybe you'd like to open a pull request to address one of them ;)
 
 [issues]: https://github.com/rtbf-ir/chrome-plugin/issues
 
-## Related projects
+## Related Projects
 
 [Wordpress plugin][Wordpress plugin]
 
@@ -76,7 +71,7 @@ maybe you'd like to open a pull request to address one of them ;)
 All assets and code are under the [Apache license](LICENSE) and in the public
 domain unless specified otherwise.
 
-## how to install - tutorial (click on image)
+## How to install - Tutorial (click on image)
 [![](chrome.png)](https://youtu.be/1LGWG1CnaX4)
 
-**video link:** https://youtu.be/1LGWG1CnaX4
+**Video Link:** https://youtu.be/1LGWG1CnaX4
