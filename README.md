@@ -72,6 +72,6 @@ All assets and code are under the [Apache license](LICENSE) and in the public
 domain unless specified otherwise.
 
 ## How to install - Tutorial (click on image)
-[![](chrome.png)](https://youtu.be/1LGWG1CnaX4)
+[![](assets/images/chrome.png)](https://youtu.be/1LGWG1CnaX4)
 
 **Video Link:** https://youtu.be/1LGWG1CnaX4
