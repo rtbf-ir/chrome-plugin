@@ -42,7 +42,7 @@ function showDifficulty(item, tabId) {
 
   if (deleteurl !== "#") {
     document.querySelector(".remove-button").style.display = "block";
-    document.querySelector(".remove-button").href = deleteurl;
+    document.querySelector(".remove-button").href = "https://" + deleteurl;
   }
 
   document.querySelector(".service-name").innerText = 'در "' + name + '"';
