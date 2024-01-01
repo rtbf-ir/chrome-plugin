@@ -64,13 +64,16 @@ chrome?.tabs?.query(
   },
   function (tabs) {
     const currentUrl = tabs[0].url;
+    const urlObj = new URL(currentUrl);
+    const domain = urlObj.hostname;
+
     const tabId = tabs[0].id;
 
     fetch(DATA_URL)
       .then((response) => response.json())
       .then((websites) => {
         for (let item of websites) {
-          if (currentUrl.includes(item.website)) {
+          if (domain === item.website) {
             showDifficulty(item, tabId);
             return;
           }
