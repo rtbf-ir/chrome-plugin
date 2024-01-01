@@ -28,6 +28,7 @@ function showDifficulty(item, tabId) {
     keytype: difficulty,
     info,
     deleteurl,
+    name,
   } = item;
 
   changeIcon(difficulty, tabId);
@@ -43,6 +44,8 @@ function showDifficulty(item, tabId) {
     document.querySelector(".remove-button").style.display = "block";
     document.querySelector(".remove-button").href = deleteurl;
   }
+
+  document.querySelector(".service-name").innerText = 'در "' + name + '"';
 
   hideSpinner();
 
