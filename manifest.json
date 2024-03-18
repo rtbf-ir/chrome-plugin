@@ -15,9 +15,9 @@
     "default_title": "rtbf.ir",
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "/assets/images/logo.png",
-      "32": "/assets/images/logo.png",
-      "48": "/assets/images/logo.png"
+      "16": "assets/images/logo.png",
+      "32": "assets/images/logo.png",
+      "48": "assets/images/logo.png"
     }
   },
   "background": {
@@ -35,5 +35,10 @@
         "popup.js"
       ]
     }
-  ]
+  ],
+  "icons": {
+    "16": "assets/images/logo.png",
+    "48": "assets/images/logo.png",
+    "128": "assets/images/logo.png"
+  }
 }
