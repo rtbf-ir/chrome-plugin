@@ -43,6 +43,12 @@ To run it locally you just need to:
 
 [Chrome Web Store]: https://chrome.google.com/webstore/category/extensions?authuser=1&gclid=Cj0KCQjwjN-SBhCkARIsACsrBz5ZueYGF_51GvXFmE-kUZ53-IClozoL0IkSlxfMdrkndfNuv_5EgdAaAo_XEALw_wcB
 
+## Installing the extension
+
+Published version of the extension is available on [Chrome web store](https://chromewebstore.google.com/detail/right-to-be-forgotten/ogijchfghlflmfmdaeeeiondjpdnfilh) page.
+
+[Chrome web store]: https://chromewebstore.google.com/
+
 ## Contributing
 
 We invite your participation through issues and pull requests!
