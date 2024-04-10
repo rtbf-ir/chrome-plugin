@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/version-1.2.0-blue" alt="version">
+    <img src="https://img.shields.io/badge/version-1.3.0-blue" alt="version">
     <img src="https://img.shields.io/badge/Chrome Web Store extension rating-★★★★☆-brightgreen" alt="rating">
     <br/>
     <a href="https://twitter.com/intent/follow?screen_name=rtbf_ir">
