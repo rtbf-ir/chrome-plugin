@@ -76,8 +76,3 @@ maybe you'd like to open a pull request to address one of them ;)
 
 All assets and code are under the [Apache license](LICENSE) and in the public
 domain unless specified otherwise.
-
-## How to install - Tutorial (click on image)
-[![](assets/images/chrome.png)](https://youtu.be/1LGWG1CnaX4)
-
-**Video Link:** https://youtu.be/1LGWG1CnaX4
