@@ -57,6 +57,25 @@ function showNotSupported() {
   document.querySelector(".not-supported-container").style.display = "block";
 }
 
+function getDomainParts(hostname) {
+  return hostname.split('.').reverse();
+}
+
+function isSubdomainMatch(currentDomain, websiteDomain) {
+  const currentParts = getDomainParts(currentDomain);
+  const websiteParts = getDomainParts(websiteDomain);
+
+  // Website should have equal or fewer parts than current domain
+  if (websiteParts.length > currentParts.length) return false;
+
+  // Check if all parts of website domain match with current domain from right to left
+  for (let i = 0; i < websiteParts.length; i++) {
+    if (websiteParts[i] !== currentParts[i]) return false;
+  }
+
+  return true;
+}
+
 chrome?.tabs?.query(
   {
     active: true,
@@ -73,7 +92,7 @@ chrome?.tabs?.query(
       .then((response) => response.json())
       .then((websites) => {
         for (let item of websites) {
-          if (domain === item.website) {
+          if (isSubdomainMatch(domain, item.website)) {
             showDifficulty(item, tabId);
             return;
           }
