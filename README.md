@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/version-1.5.0-blue" alt="version">
+    <img src="https://img.shields.io/badge/version-1.6.0-blue" alt="version">
     <img src="https://img.shields.io/badge/Chrome Web Store extension rating-★★★★☆-brightgreen" alt="rating">
     <br/>
     <a href="https://twitter.com/intent/follow?screen_name=rtbf_ir">
@@ -37,9 +37,9 @@ To run it locally you just need to:
 3. Navigate to the local folder containing the extension’s code and click Ok
 4. Assuming there are no errors, the extension should load into your browser
 
-## Browser Permission
+## Privacy and permissions
 
-- Read your browsing history
+The extension only accesses the active tab after you open it. It requests access to `rtbf.ir` solely to download the public service directory and keeps a 24-hour local cache. See [Privacy policy](PRIVACY.md).
 
 [Chrome Web Store]: https://chrome.google.com/webstore/category/extensions?authuser=1&gclid=Cj0KCQjwjN-SBhCkARIsACsrBz5ZueYGF_51GvXFmE-kUZ53-IClozoL0IkSlxfMdrkndfNuv_5EgdAaAo_XEALw_wcB
 

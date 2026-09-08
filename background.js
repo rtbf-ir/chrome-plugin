@@ -1,19 +1,9 @@
-chrome.runtime.onInstalled.addListener(() => {
-  chrome.contextMenus.create(
-    {
-      title: "وبسایت حق فراموش شدن",
-      id: "rtbfWebsite",
-    },
-    () => chrome.runtime.lastError
-  );
+const extensionApi = globalThis.browser ?? globalThis.chrome;
+
+extensionApi.runtime.onInstalled.addListener(() => {
+  extensionApi.contextMenus.create({ title: "وبسایت حق فراموش شدن", id: "rtbfWebsite" }, () => void extensionApi.runtime.lastError);
 });
 
-chrome.contextMenus.onClicked.addListener(function (info, tab) {
-  const { menuItemId } = info;
-
-  if (menuItemId === "rtbfWebsite") {
-    chrome.tabs.create({
-      url: "https://rtbf.ir",
-    });
-  }
+extensionApi.contextMenus.onClicked.addListener((info) => {
+  if (info.menuItemId === "rtbfWebsite") extensionApi.tabs.create({ url: "https://rtbf.ir" });
 });

@@ -1,15 +1,15 @@
 {
-  "version": "1.5.0",
+  "version": "1.6.0",
   "manifest_version": 3,
   "name": "Right to be forgotten",
   "description": "نداشتن امکان حذف حساب‌کاربری در بسیاری از سرویس‌ها نقض حریم‌شخصی کاربران است که با حق فراموش شدن برای حذف اطلاعات، مغایرت دارد.",
   "permissions": [
     "activeTab",
-    "tabs",
-    "contextMenus"
+    "contextMenus",
+    "storage"
   ],
   "host_permissions": [
-    "<all_urls>"
+    "https://rtbf.ir/*"
   ],
   "action": {
     "default_title": "rtbf.ir",
@@ -23,19 +23,6 @@
   "background": {
     "service_worker": "background.js"
   },
-  "content_scripts": [
-    {
-      "matches": [
-        "<all_urls>"
-      ],
-      "css": [
-        "popup.css"
-      ],
-      "js": [
-        "popup.js"
-      ]
-    }
-  ],
   "icons": {
     "16": "assets/images/logo.png",
     "48": "assets/images/logo.png",
