@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="popup.css" />
 </head>
 
-<body style=" margin: 0; padding: 0; height: 100%; font-family: dana, serif;">
-    <h1 class="plugin-title"><a class="text-dark text-decoration-none" href="https://rtbf.ir/" target="_blank">وضعیت حق فراموش شدن <span class="service-name"></span></a></h1>
+<body>
+    <h1 class="plugin-title"><a href="https://rtbf.ir/" target="_blank">وضعیت حق فراموش شدن <span class="service-name"></span></a></h1>
     <button id="closeButton" class="close-button">x بستن</button>
 
     <div class="popup-container">
@@ -44,9 +44,10 @@
         <div class="spinner-container">
             <span class="spinner" aria-label="در حال دریافت اطلاعات"></span>
         </div>
+
+        <p class="data-status" role="status" hidden></p>
     </div>
 
-    <p class="data-status" role="status" hidden></p>
     <script src="domain-utils.js"></script>
     <script src="popup.js"></script>
 </body>
