@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/version-1.7.0-blue" alt="version">
+    <img src="https://img.shields.io/badge/version-2.0.0-blue" alt="version">
     <img src="https://img.shields.io/badge/Chrome Web Store extension rating-★★★★☆-brightgreen" alt="rating">
     <br/>
     <a href="https://twitter.com/intent/follow?screen_name=rtbf_ir">
@@ -37,9 +37,17 @@ To run it locally you just need to:
 3. Navigate to the local folder containing the extension’s code and click Ok
 4. Assuming there are no errors, the extension should load into your browser
 
+## Service icons
+
+`assets/images/service-icons` contains a snapshot of the favicons already downloaded in the main rtbf.ir project. Copy that project’s `assets/img/icons` files and `index.json` here when updating the icon snapshot for a new extension release. Missing icons leave the service information visible.
+
+## Tests
+
+Run `node --test test/*.test.mjs` to check optional icon loading, caching, and timeout handling.
+
 ## Privacy and permissions
 
-The extension only accesses the active tab after you open it. It requests access to `rtbf.ir` solely to download the public service directory and keeps a 24-hour local cache. See [Privacy policy](PRIVACY.md).
+The extension only accesses the active tab after you open it. It downloads the public directory only from `rtbf.ir` and keeps its existing 24-hour local cache. Service icons are bundled from the main project and load locally, independently of the service information, with a two-second timeout. See [Privacy policy](PRIVACY.md).
 
 [Chrome Web Store]: https://chrome.google.com/webstore/category/extensions?authuser=1&gclid=Cj0KCQjwjN-SBhCkARIsACsrBz5ZueYGF_51GvXFmE-kUZ53-IClozoL0IkSlxfMdrkndfNuv_5EgdAaAo_XEALw_wcB
 

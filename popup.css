@@ -41,6 +41,26 @@ body {
 
 .plugin-title a:hover { text-decoration: underline; }
 
+.service-heading {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.service-name {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.service-icon {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+  object-fit: contain;
+}
+
 .close-button {
   position: absolute;
   top: 12px;

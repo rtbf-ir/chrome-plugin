@@ -8,4 +8,6 @@ To keep the directory available offline briefly, the extension stores a cached c
 
 The only network request made by the extension is a request for the public directory at `https://rtbf.ir/data/data.json`.
 
+Service icons are included in the extension package from the main RTBF project and read locally. Loading an icon sends no request to RTBF, the visited website, or a third-party favicon provider.
+
 Contact: info [at] rtbf [dot] ir

@@ -38,6 +38,7 @@ function showDifficulty(item, tabId) {
   document.querySelector(".service-name").textContent = `در «${name}»`;
   hideSpinner();
   document.querySelector(".difficulty-container").style.display = "flex";
+  void RTBFServiceIcons.show(item.website);
 }
 
 function showNotSupported() {
